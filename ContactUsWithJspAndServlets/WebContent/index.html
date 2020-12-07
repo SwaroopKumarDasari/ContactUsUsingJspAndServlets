@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu"
+	rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login</title>
+</head>
+
+<body>
+	<div class="main">
+		<p class="sign" align="center">Sign in</p>
+		<form action="/admin/loginValidation" method="POST">
+			<input type="hidden" name="command" value="SHOW_ACTIVE_REQ" /> <input
+				class="un" name="uname" type="text" placeholder="Username" required>
+			<input class="pass" name="password" type="password"
+				placeholder="Password" required> <input type="submit"
+				value="Sign In" class="submit" /> <br>
+			<br>
+			<br> <a class="contactUs" href="/contactus">contact us?</a>
+		</form>
+	</div>
+
+</body>
+
+</html>

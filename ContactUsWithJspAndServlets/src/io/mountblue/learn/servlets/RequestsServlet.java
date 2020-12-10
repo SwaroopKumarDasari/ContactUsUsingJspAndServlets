@@ -79,7 +79,7 @@ public class RequestsServlet extends HttpServlet {
 			List<Request> requests = null;
 			requests = requestDao.getActiveRequests(archived);
 			request.setAttribute("requestDetails", requests);
-			if (archived == false) {
+			if (!archived) {
 				request.setAttribute("toggler", true);
 			} else {
 				request.setAttribute("toggler", false);

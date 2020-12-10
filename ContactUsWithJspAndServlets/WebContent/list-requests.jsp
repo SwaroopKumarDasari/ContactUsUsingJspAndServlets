@@ -118,7 +118,7 @@ body {
 							<c:otherwise>
 								<a href="${unArchiveLink}"
 									class="waves-effect waves-light btn-small #e57373 red lighten-2"
-									onclick="if (!(confirm('Are you sure you want to unArchive this request?'))) return false">UnArchive</a>
+									onclick="if (!(confirm('Are you sure you want to un-archive this request?'))) return false">UnArchive</a>
 							</c:otherwise>
 						</c:choose></td>
 				</tr>
